@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKW-Verwaltungsseite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>LKW-Verwaltungsseite</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Anmelden</a></li>
+                    <li><a href="#">Stornieren</a></li>
+                    <li><a href="#">Tabelle</a></li>
+                    <li><a href="#">Übersicht</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Formular für die Anmeldung eines LKWs -->
+            <section id="register-truck">
+                <h2>LKW anmelden</h2>
+                <!-- Formular hier einfügen -->
+            </section>
+
+            <!-- Formular für die Stornierung eines LKWs -->
+            <section id="cancel-truck">
+                <h2>LKW stornieren</h2>
+                <!-- Formular hier einfügen -->
+            </section>
+
+            <!-- Tabelle für die Anzeige der LKWs -->
+            <section id="truck-table">
+                <h2>LKW-Tabelle</h2>
+                <!-- Tabelle hier einfügen -->
+            </section>
+
+            <!-- Übersicht der angemeldeten LKWs -->
+            <section id="overview">
+                <h2>Übersicht</h2>
+                <!-- Übersicht hier einfügen -->
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
